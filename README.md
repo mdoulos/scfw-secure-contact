@@ -1,3 +1,5 @@
+Secure Contact Forms for Wordpress
+
 ![secure-contact-example-dual](https://github.com/user-attachments/assets/5e8c7f29-9b52-4443-a47a-a5b5b418b417)
 
 How it Works
