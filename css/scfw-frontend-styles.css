@@ -1,0 +1,184 @@
+/* --------------------------------------------- */
+/* Secure Custom Forms Frontend --------------------------------------------------------------------------------- */
+/* --------------------------------------------- */
+
+.scfw-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.scfw-antispam {
+    display: none !important;
+}
+
+.scfw-field {
+    margin: 0.75rem 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 49.5%;
+}
+
+.scfw-field input {
+    width: 100%;
+    height: 44px;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.scfw-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.scfw-container img {
+    height: 100%;
+    margin-right: 5px;
+}
+
+.scfw-img-sm, .scfw-img-lg {
+    position: relative;
+}
+
+.scfw-img-lg img {
+    width: 91px;
+    min-width: 67px;
+    max-width: 91px;
+}
+
+.scfw-img-sm img {
+    width: 44px;
+    min-width: 30px;
+    max-width: 44px;
+}
+
+.scfw-submit {
+    width: 100%;
+    padding: 1rem;
+    font-weight: 700;
+    margin: auto;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 7px;
+}
+
+#scfw-submit-actual {
+    display: none;
+}
+
+.scfw-submit span {
+    font-size: 23px;
+}
+
+.scfw-field label {
+    margin-bottom: 5px;
+}
+
+.scfw-img-container {
+    flex-wrap: nowrap;
+    max-height: 44px;
+}
+
+.scfw-message {
+    width: 100%;
+}
+
+.scfw-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    mix-blend-mode: color-burn;
+}
+
+.scfw-required span {
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+    color: red;
+}
+
+#scfw_error_notice {
+    display: none;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    background: #FFF7F7;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.scfw-required-error input, .scfw-required-error textarea {
+    color: red;
+    border: red 1.5px solid !important;
+    border-radius: 5px;
+    background: #FFF7F7;
+}
+
+.scfw-required-error label {
+    color: red;
+}
+
+.scfw-required-error label abbr {
+    font-weight: 900;
+}
+
+.scfw-response {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.85);
+    justify-content: center;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+}
+
+.scfw-response h3 {
+    font-size: 26px;
+}
+
+.scfw-odd-field {
+    width: 100%;
+}
+
+.flex-order-0 {
+    order: 0;
+}
+
+.flex-order-1 {
+    order: 1;
+}
+
+.flex-order-2 {
+    order: 2;
+}
+
+.flex-order-3 {
+    order: 3;
+}
+
+.flex-order-4 {
+    order: 4;
+}
+
+.flex-order-5 {
+    order: 5;
+}
+
+.flex-order-6 {
+    order: 6;
+}
+
+@media only screen and (max-width: 768px) { 
+    .scfw-field {
+        width: 100%;
+    }
+}

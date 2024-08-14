@@ -1,0 +1,168 @@
+/* --------------------------------------------- */
+/* Secure Custom Forms Admin --------------------------------------------------------------------------------- */
+/* --------------------------------------------- */
+
+.flex-row {
+    display: flex;
+}
+
+.scfw-admin__section p {
+    margin-top: 0 !important;
+}
+
+.scfw-admin__section h2 {
+    margin: 40px 0 9px 0;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.scfw-admin_emails .flex-row {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.scfw-admin_emails .flex-row input {
+    margin-left: auto;
+    width: 325px;
+}
+
+.scfw-admin_emails .flex-row label {
+    position: relative;
+    top: 4px;
+}
+
+.scfw-admin_inputs input {
+    margin: auto 40px auto 10px;
+}
+
+.scfw-admin_inputs label {
+    margin: auto 0;
+    min-width: 45px;
+}
+
+.scfw-admin_inputs > div > label {
+    width: 175px;
+}
+
+.scfw-admin_inputs > div {
+    margin-bottom: 15px;
+}
+
+.scfw-admin_inputs input[type=checkbox] {
+    margin: auto 25px auto 10px;
+}
+
+.scfw-admin_checkbox-label {
+    min-width: 45px !important;
+}
+
+.scfw-admin_placeholder-label {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.scfw-admin_securityimage-label {
+    margin: auto 10px auto 0;
+    position: relative;
+    top: -4px;
+}
+
+.scfw-admin_securityimage .wp-picker-container {
+    position: relative;
+    left: 103px;
+}
+
+.scfw-admin_sendbutton .wp-picker-container {
+    position: relative;
+    left: 68px;
+}
+
+.scfw-admin_securityimage .wp-picker-holder, .scfw-admin_sendbutton .wp-picker-holder {
+    position: absolute;
+    left: -18px;
+    z-index: 1;
+}
+
+.scfw-admin__order label {
+    min-width: 45px;
+}
+
+.scfw-admin__order input[type="number"] {
+    width: 40px;
+}
+
+.scfw-admin_sendbutton-color {
+    margin: auto 10px auto 0;
+    position: relative;
+    top: -4px;
+}
+
+.scfw-admin_sendbutton input[type="text"] {
+    margin-left: 82px;
+}
+
+.scfw-admin_sendbutton > div:nth-of-type(3) label, .scfw-admin_sendbutton > div:last-of-type label {
+    margin: auto 0;
+}
+
+.scfw-admin_sendbutton > div:nth-of-type(2) .wp-picker-container {
+    left: 124px;
+}
+
+.scfw-admin_submission div {
+    max-width: 590px;
+}
+
+.scfw-admin_submission input {
+    width: 456px;
+    margin: 3px 0 3px auto;
+}
+
+.scfw-admin_submission label {
+    margin: auto 0;
+}
+
+.scfw-admin_sendbutton > div:last-of-type {
+    margin-top: 5px;
+}
+
+.scfw-admin_sendbutton > div:last-of-type input {
+    width: 100px;
+    margin-left: 62px;
+}
+
+.scfw-admin_submission div:nth-of-type(2) input {
+    width: 482px;
+}
+
+.scfw-admin_submission div:nth-of-type(3), .scfw-admin_submission div:nth-of-type(4) {
+    max-width: 590px;
+}
+
+.scfw-admin_submission div:nth-of-type(3) input, .scfw-admin_submission div:nth-of-type(4) input {
+    width: 300px;
+}
+
+.scfw-admin_submission div:nth-of-type(3) input {
+    width: 429px;
+}
+
+.scfw-admin_submission div:nth-of-type(5) input {
+    width: 60px;
+}
+
+.scfw-admin_submission div:nth-of-type(5) {
+    max-width: 315px;
+}
+
+.scfw-admin_statistics span:first-of-type {
+    font-weight: bold;
+    margin: 0 10px 7px 0;
+}
+
+.scfw-admin_statistics p:nth-of-type(2) {
+    margin-top: 20px !important;
+    margin-bottom: 4px !important;
+}
